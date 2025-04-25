@@ -47,6 +47,11 @@ export default function Home() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link href="/afficheur" legacyBehavior>
+                  <a className="nav-link">Afficheurs (BETA)</a>
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link href="/prochains-departs" legacyBehavior>
                   <a className="nav-link">Prochains Départs</a>
                 </Link>
